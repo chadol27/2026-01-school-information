@@ -1,0 +1,10 @@
+text = ["파이썬", "정말", "재밌어"]
+text.append("!")
+print(text)
+text.pop()
+print(text)
+text.remove("정말")
+print(text)
+text.insert(1, "쉽고")
+print(text)
+print(len(text))
