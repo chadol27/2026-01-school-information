@@ -1,5 +1,5 @@
 for _ in range(3):
-  score = int(input("점수를 입력하세요"))
+  score = int(input("점수를 입력하세요:"))
   if score >= 80:
     print("참 잘했어요")
   elif score >= 60:
