@@ -26,7 +26,7 @@ print(sum_number)
 # 문제 5번
 stars = int(input("출력하고 싶은 별의 개수는?"))
 for i in range(1, stars+1):
-  print("*"*(i))
+  print("*"*i)
 
 # 문제 6번
 sum_number = 0
@@ -39,7 +39,7 @@ while number <= 10:
 
 # 문제 7번
 for _ in range(3):
-  score = int(input("점수를 입력하세요"))
+  score = int(input("점수를 입력하세요:"))
   if score >= 80:
     print("참 잘했어요")
   elif score >= 60:
